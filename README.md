@@ -11,6 +11,7 @@ A interface gráfica do usuário (GUI) foi desenvolvida com **PyQt6** para facil
 Este trabalho é uma atividade da **Bolsa de Iniciação Científica (IC)** e está vinculado ao **Curso de Ciência da Computação** do **Instituto de Ciências Exatas e Naturais (ICEN)** da **Faculdade de Computação (FACOMP)** da **Universidade Federal do Pará (UFPA)**.
 
 * **Instituição:** Universidade Federal do Pará (UFPA)
+* **Autor:** Leonardo Cunha da Rocha
 * **Orientadora:** Profa. Dra. Paula Christina Figueira Cardoso
 
 ---
