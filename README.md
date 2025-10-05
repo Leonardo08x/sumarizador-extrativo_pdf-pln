@@ -33,7 +33,7 @@ O sistema segue um pipeline modular dividido em etapas lógicas, garantindo esca
     * `puntuador_de_sentencas()`: Pontua cada frase somando os pesos dos lemas que ela contém.
     * `extracao_das_melhores_sentencas()`: Seleciona as frases mais bem pontuadas e as reordena na sequência original do texto para gerar o resumo final.
 
-### Interface Principal (`app.py`)
+### Interface Principal (`main_ipqt6.py`)
 
 * Contém a interface gráfica **PyQt6** para a interação do usuário.
 * Gerencia a execução do pipeline de sumarização em uma **thread separada** para evitar travamento da GUI.
