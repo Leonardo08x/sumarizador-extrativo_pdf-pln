@@ -8,7 +8,9 @@ def main(file):
     tokens = tokenizer_spacy(doc_text)
     dict_lemmas_pontuados = pontuador_de_lemmas(tokens)
     dict_sentencas_pontuados = puntuador_de_sentencas(tokens, dict_lemmas_pontuados)
-    string_final = extração_das_melhores_sentencas(tokens, dict_sentencas_pontuados)
-    print(string_final)
+    #string_final = extração_das_melhores_sentencas(tokens, dict_sentencas_pontuados,'excel')
+    dados_para_regressao = extração_das_melhores_sentencas(tokens, dict_sentencas_pontuados,'regressão')
+    #print(string_final)
 
-main("arquivo_de_teste.pdf")
+#main("arquivo_de_teste.pdf")
+main("arquivo_teste_modelo.pdf")

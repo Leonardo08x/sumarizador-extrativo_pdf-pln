@@ -17,7 +17,7 @@ def run_sumarization_pipeline(file_path):
     tokens = tokenizer_spacy(doc_text)
     dict_lemmas_pontuados = pontuador_de_lemmas(tokens)
     dict_sentencas_pontuados = puntuador_de_sentencas(tokens, dict_lemmas_pontuados)
-    string_final = extração_das_melhores_sentencas(tokens, dict_sentencas_pontuados)
+    string_final = extração_das_melhores_sentencas(tokens, dict_sentencas_pontuados,'excel')
     
     return doc_text, string_final
 
